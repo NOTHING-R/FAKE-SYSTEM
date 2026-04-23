@@ -5,8 +5,164 @@
     <link rel="self" type="application/atom+xml" href="https://nothing-r.github.io/The_Orcas/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nothing-r.github.io/The_Orcas/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-02-27T00:00:00+00:00</updated>
+    <updated>2026-04-23T00:00:00+00:00</updated>
     <id>https://nothing-r.github.io/The_Orcas/atom.xml</id>
+    <entry xml:lang="en">
+        <title>javascript_chaiOrCode</title>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nothing-r.github.io/The_Orcas/writeups/javascript-chaiorcode/"/>
+        <id>https://nothing-r.github.io/The_Orcas/writeups/javascript-chaiorcode/</id>
+        
+        <content type="html" xml:base="https://nothing-r.github.io/The_Orcas/writeups/javascript-chaiorcode/">&lt;h1 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nothing-r.github.io&#x2F;The_Orcas&#x2F;writeups&#x2F;javascript-chaiorcode&#x2F;#var-let-and-const-video-04&quot;&gt;VAR LET AND CONST&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nothing-r.github.io&#x2F;The_Orcas&#x2F;writeups&#x2F;javascript-chaiorcode&#x2F;#datatypes-and-ecma-video-05&quot;&gt;DataTypes and ECMA&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nothing-r.github.io&#x2F;The_Orcas&#x2F;writeups&#x2F;javascript-chaiorcode&#x2F;#ecma&quot;&gt;ECMA&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nothing-r.github.io&#x2F;The_Orcas&#x2F;writeups&#x2F;javascript-chaiorcode&#x2F;#datatypes&quot;&gt;DataTypes&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;var-let-and-const-video-04&quot;&gt;VAR LET AND CONST (video-04)&lt;&#x2F;h1&gt;
+&lt;p&gt;Modern js a sudhu matro &lt;code&gt;let&lt;&#x2F;code&gt; abong &lt;code&gt;const&lt;&#x2F;code&gt; use kora hoi karon. &lt;code&gt;var&lt;&#x2F;code&gt; er problem hocce var kno a scope kaj kore na. mane same name a akta varibale banale oi name a r kno varibale banano jai na&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;var&lt;&#x2F;span&gt;&lt;span&gt; hello&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;function&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt; vhurum&lt;&#x2F;span&gt;&lt;span&gt;(){&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;  var&lt;&#x2F;span&gt;&lt;span&gt; hello&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;hi&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;  console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(hello)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(hello)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;python&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #8BE9FD;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;Hello&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;datatypes-and-ecma-video-05&quot;&gt;DataTypes and ECMA (video-05)&lt;&#x2F;h1&gt;
+&lt;p&gt;javascript a akta  syntex ace &lt;code&gt;use strict&lt;&#x2F;code&gt; aydar mane hocce js er j enginee ace oita js er ay code ta k new code er moto treate korb karon js ager theke onk besi mordern abong evolbe hoice.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ecma&quot;&gt;ECMA&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;ECMA&lt;&#x2F;code&gt; hocce stander. Mane history er first er dike ak akta browser er system ak ak rokom cilo jar karone akta browser er jonno lekha code onno browser a kaj korto na. er pore &lt;code&gt;ECMA&lt;&#x2F;code&gt; ak jaigai hoye stander banai j code ay vabe e lekah hobe r browser gulo o ay code k ayvabe treate korbe…&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;datatypes&quot;&gt;DataTypes&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;number&quot;&gt;NUMBER&lt;&#x2F;h3&gt;
+&lt;p&gt;number hocce full number jemon&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; age&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 33&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;number er range hocce &lt;code&gt;2 to the power 53&lt;&#x2F;code&gt; jdi er theke boro number store korete hoi tahole &lt;code&gt;bigint&lt;&#x2F;code&gt;  use kora lage…..normaly to lage na kintu onk boro company jemon meta, redit ay sob a dorkar pore&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;string&quot;&gt;STRING&lt;&#x2F;h3&gt;
+&lt;p&gt;double othoba single qoute a ja ace sob string&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; name&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;nothing&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;boolean&quot;&gt;boolean&lt;&#x2F;h3&gt;
+&lt;p&gt;True othoba false&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;null&quot;&gt;NULL&lt;&#x2F;h3&gt;
+&lt;p&gt;null hocce akta &lt;code&gt;standalone value&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;undefiend&quot;&gt;UNDEFIEND&lt;&#x2F;h3&gt;
+&lt;p&gt;UNDEFIEND hocce jdi kno variable declear kore oita te kno value assign kora na hoi tahole&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; area; &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(area)&lt;&#x2F;span&gt;&lt;span style=&quot;color: #6272A4;&quot;&gt; &#x2F;&#x2F;Undefiend&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;symbol&quot;&gt;symbol&lt;&#x2F;h3&gt;
+&lt;p&gt;Symbol maily react type er jinis a use hoi ayta k &lt;code&gt;unique&lt;&#x2F;code&gt; dekhanor jonno use kroa hoi&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;object&quot;&gt;OBJECT&lt;&#x2F;h3&gt;
+&lt;p&gt;object to data type j ta js er main data type&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kivabe-data-type-dekha-jai&quot;&gt;KIVABE DATA TYPE DEKHA JAI&lt;&#x2F;h2&gt;
+&lt;p&gt;data type dekhar jonno&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; null&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; undifiend)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;::RESULT::
+string
+object
+undefined&lt;&#x2F;p&gt;
+&lt;p&gt;inteview te ay quetion ta ase j null er data type ki? oitar ans hobe hocce object. Kintu undefined abr akta indivudual data type.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;data-type-converstion-confusion-video-06&quot;&gt;DATA TYPE CONVERSTION CONFUSION (video-06)&lt;&#x2F;h1&gt;
+&lt;p&gt;CONVERSTION hocce akta dataType dia onno data type a convert kora string to number number to float float to number etc.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;akta-kahini-string-to-number-er&quot;&gt;akta kahini string to number er&lt;&#x2F;h2&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; age&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;33&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; age)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; newAge&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt; Number&lt;&#x2F;span&gt;&lt;span&gt;(age)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; newAge)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(newAge)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;::RESULT::
+string
+number
+33&lt;&#x2F;p&gt;
+&lt;p&gt;akhn jdi string er vitore kno charecter thake tkhn ki hobe?&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; age&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;33abc&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; age)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; newAge&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt; Number&lt;&#x2F;span&gt;&lt;span&gt;(age)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; newAge)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(newAge)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;::RESULT::
+string
+number
+NaN&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;NaN&lt;&#x2F;code&gt; not a number mane ayda js er akta kahini j jdi charecter o theke tao nmbr a convert kore kintu oitar akta specila data type a convert kore ja hocce not a nmbr&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; age&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; null&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; age)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; newAge&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt; Number&lt;&#x2F;span&gt;&lt;span&gt;(age)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;typeof&lt;&#x2F;span&gt;&lt;span&gt; newAge)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(newAge)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;::RESULT::
+object
+number
+0&lt;&#x2F;p&gt;
+&lt;p&gt;null k number a convert korle hoi 0 r undefined k convert korle hoi NaN&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;boolean-converstion&quot;&gt;BOOLEAN CONVERSTION&lt;&#x2F;h2&gt;
+&lt;p&gt;1 = true
+0 = fasle
+| True     | False |
+| 1        | 0     |
+| “string” | “”    |&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;confiusion-between-string-to-number-converstion-video-07&quot;&gt;CONFIUSION BETWEEN STRING TO NUMBER CONVERSTION (video-07)&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;code&gt;Operation&lt;&#x2F;code&gt;  mane hocce +,-,*,&#x2F; ay sob&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;**&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;%&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; value&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 3&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;value&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; = -&lt;&#x2F;span&gt;&lt;span&gt;value&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(value)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;kemon-jeno-ay-code-gulo&quot;&gt;kemon jeno ay code gulo&lt;&#x2F;h2&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; +&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 1&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; +&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #6272A4;&quot;&gt;&#x2F;&#x2F;31&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; +&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 1&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; +&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 1&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #6272A4;&quot;&gt;&#x2F;&#x2F;211&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #6272A4;&quot;&gt;&#x2F;&#x2F;1&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;+&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #6272A4;&quot;&gt;&#x2F;&#x2F;0&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;prefix-a-rakhle-ki-hoi-r-last-a-rakhle-ki-hoi&quot;&gt;++ prefix a rakhle ki hoi r last a rakhle ki hoi&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener nofollow noreferrer external&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;*developer.mozilla.org*en-US*docs*Web*JavaScript*Reference*Operators*Increment&quot;&gt;mdn docs&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;comparison-of-datatypes-in-javascript-video-08&quot;&gt;Comparison of datatypes in javascript (video-08)&lt;&#x2F;h1&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;null&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; &amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 0&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;null&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; ==&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 0&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;null&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; &amp;gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 0&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;---&lt;&#x2F;span&gt;&lt;span&gt; Output&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;false&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;false&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;equalit == r Comparison alada vabe kaj kore Comparison &amp;lt;,&amp;gt;,!= same data type baniye nei ay jonno null 0 hoye jai r last a oita k &lt;code&gt;true&lt;&#x2F;code&gt; show kore&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;strict-check&quot;&gt;Strict check&lt;&#x2F;h2&gt;
+&lt;p&gt;js a &lt;code&gt;==&lt;&#x2F;code&gt; data type check kore na jemon “1” == 1 true, jdio akta strirng r akta int….ay jonno equalit check er jonno sob smy &lt;code&gt;===&lt;&#x2F;code&gt; use kora hoi . Main kotha hocce == data type check kore na r === data type check kore Comparison kore&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #F8F8F2; background-color: #282A36;&quot;&gt;&lt;code data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; ==&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;console.&lt;&#x2F;span&gt;&lt;span style=&quot;color: #50FA7B;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #F1FA8C;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color: #E9F284;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt; ===&lt;&#x2F;span&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt; 2&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #FF79C6;&quot;&gt;---&lt;&#x2F;span&gt;&lt;span&gt; Output&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;true&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #BD93F9;&quot;&gt;false&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;data-types-of-javascript-summary-video-09&quot;&gt;Data types of javascript summary (video-09)&lt;&#x2F;h1&gt;
+&lt;p&gt;js er data type mainly 2 vag a vag kora. &lt;code&gt;premitive&lt;&#x2F;code&gt; r &lt;code&gt;Non-premetive&lt;&#x2F;code&gt;. premitive r Non-premetive hisab kora hoi hocce &lt;code&gt;kon vabe data k memory te rakha hoi abong access kora hoi oitar upore depend kore data type a ay dui vag a vag kora hoi&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;premitive&quot;&gt;PREMITIVE&lt;&#x2F;h2&gt;
+&lt;p&gt;premitive a total 7 type er data type ace&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;String&lt;br &#x2F;&gt;
+String hocce normall “” er vitore ja ace ty&lt;&#x2F;li&gt;
+&lt;li&gt;Number&lt;&#x2F;li&gt;
+&lt;li&gt;BOOLEAN&lt;&#x2F;li&gt;
+&lt;li&gt;NULL
+null mane hocce kiccu na mane oita kno data type e na….null nijei alalda akta data type&lt;&#x2F;li&gt;
+&lt;li&gt;undefined
+undefined mane hocce akta variable declear kore oita te kno value dea hoi ni…ba variable ta te kno value nai&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>DWM ASWOMEBAR INSTALL</title>
         <published>2026-02-27T00:00:00+00:00</published>
