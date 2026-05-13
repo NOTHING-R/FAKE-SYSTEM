@@ -35,7 +35,7 @@ theme = "dracula"
 # Extra configuration for your site
 [extra]
 # Your username/handle that appears in the header
-username = "THE SILENT ORCAS"
+username = "FAKE-SYSTEM"
 
 # Your bio text that appears on the homepage
 bio = "Just a curious person who want to know about the digital world."
